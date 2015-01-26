@@ -1,0 +1,45 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// For bootstrap gem
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// GENERAL LAYOUT
+
+#body-background {
+	background:#FAFAFA;
+}
+
+#main-container {
+	background:#fff;
+}
+
+// NAVBAR
+
+
+
+
+
+// STICKY FOOTER
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 85px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #000;
+  color:#fff;
+  font-weight:300;
+}
