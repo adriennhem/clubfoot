@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
   root 'pages#home'
+  get 'pages/contacts'
+  get 'pages/historique'
+  get 'pages/presentation'
+  get 'pages/infrastructures'
+  get 'pages/president'
+  get 'pages/organigramme'
+  get 'pages/partenaires'
+
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)

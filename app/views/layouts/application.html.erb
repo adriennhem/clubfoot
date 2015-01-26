@@ -15,8 +15,13 @@
   <% end %>
 
 
+	<div class="col-md-9">
+		<%= yield %>
+	</div>
 
-	<%= yield %>
+	<div class="col-md-3">
+		<%= render 'layouts/sidebar' %>
+	</div>
 </div>
 
 <%= render 'layouts/footer' %>

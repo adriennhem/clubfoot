@@ -3,11 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+$navbar-default-bg: #000;
+$navbar-border-radius: 0;
+
 // For bootstrap gem
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 // GENERAL LAYOUT
+
+
 
 #body-background {
 	background:#FAFAFA;
@@ -19,8 +24,9 @@
 
 // NAVBAR
 
-
-
+nav {
+	text-transform:uppercase;
+}
 
 
 // STICKY FOOTER
